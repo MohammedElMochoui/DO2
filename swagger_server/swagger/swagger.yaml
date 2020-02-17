@@ -112,17 +112,4 @@ definitions:
       last_name: "last_name"
       grades: ""
       first_name: "first_name"
-parameters:
-  student_id:
-    name: "student_id"
-    in: "path"
-    description: "ID of student to return"
-    required: true
-    type: "integer"
-    format: "int64"
-  subject:
-    name: "subject"
-    in: "query"
-    description: "The subject name"
-    required: false
-    type: "string"
+
